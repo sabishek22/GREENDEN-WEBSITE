@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-green-50">
+    <nav
+      class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-20"
+    >
+      <h1 class="text-4xl text-green-900">GREENDEN</h1>
+      <div class="relative group">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6 cursor-pointer md:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+        <div
+          class="absolute top-8 right-0 hidden group-hover:block bg-green-200 text-green-700 text-center p-6"
+        >
+          <p
+            class="font-medium text-l border border-black p-3 rounded-2xl cursor-pointer mb-2"
+          >
+            <a href="./home.html">Home</a>
+          </p>
+          <p
+            class="font-medium text-l border border-black p-3 rounded-2xl cursor-pointer mb-2"
+          >
+            <a href="./contacts.html">Contact</a>
+          </p>
+          <p
+            class="font-medium text-l border border-black p-3 rounded-2xl cursor-pointer mb-2"
+          >
+            <a href="./index.html">Logout</a>
+          </p>
+        </div>
+      </div>
+
+      <ul class="hidden gap-4 text-green-900 md:flex">
+        <li>
+          <a
+            href="./home.html"
+            class="transition duration-300 hover:bg-green-200 hover:text-black p-2 rounded-2xl"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="./contacts.html"
+            class="transition duration-300 hover:bg-green-200 hover:text-black p-2 rounded-2xl"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a
+            href="./index.html"
+            class="transition duration-300 hover:bg-green-200 hover:text-black p-2 rounded-2xl"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="text-center m-5">
+      <h1 class="text-4xl font-bold text-green-800 pb-5">Our Products</h1>
+      <input
+        type="text"
+        placeholder="Search for a product"
+        class="border border-black rounded-2xl p-2 w-[300px] md:w-[60%]"
+      />
+      <button
+        class="bg-green-700 p-2 m-3 text-white rounded-xl transition duration-200 hover:bg-green-600"
+      >
+        Search
+      </button>
+      <div class="bg-green-100 mb-3">
+        <p class="p-4 text-xs text-green-700 md:text-xl">
+          Bring nature indoors with our premium artificial plants and
+          flowers—crafted to look fresh, vibrant, and beautifully real, without
+          any maintenance.
+        </p>
+        <p class="p-4 text-xs text-green-700 font-bold md:text-xl">
+          Find Your Perfect Greenery
+        </p>
+      </div>
+      <div class="grid grid-cols-2 gap-5 md:grid-cols-5 mt-4">
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-5.jpg"
+            alt="Sunflower Faux"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Sunflower Faux
+          </p>
+          <p>$150</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-6.jpg"
+            alt="Daisy Bunch"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Daisy Bunch
+          </p>
+          <p>$70</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-7.jpg"
+            alt="Hydrangea Bloom"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Hydrangea
+          </p>
+          <p>$170</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-8.jpg"
+            alt="Sunflower Faux"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Sunflower Faux
+          </p>
+          <p>$130</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-5.jpeg"
+            alt="Bamboo Palm"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Bamboo Palm
+          </p>
+          <p>$60</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-6.jpeg"
+            alt="Dracaena Plant"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Dracaena Plant
+          </p>
+          <p>$80</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-7.jpg"
+            alt="Fern Bush"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Fern Bush
+          </p>
+          <p>$30</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-8.jpg"
+            alt="Jade Plant"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Jade Plant
+          </p>
+          <p>$50</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-1.avif"
+            alt="Magnolia"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Magnolia
+          </p>
+          <p>$70</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-2.avif"
+            alt="Gardenia"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Gardenia
+          </p>
+          <p>$90</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-3.avif"
+            alt="Carnation"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Carnation
+          </p>
+          <p>$60</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/flower-4.avif"
+            alt="Lavender"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Lavender
+          </p>
+          <p>$120</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-1.avif"
+            alt="Philodendron"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Philodendron
+          </p>
+          <p>$30</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-2.avif"
+            alt="Fiddle Leaf Fig"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Fiddle Leaf Fig
+          </p>
+          <p>$60</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-3.avif"
+            alt="Pothos"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Pothos
+          </p>
+          <p>$40</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/plant-4.avif"
+            alt="Spider Plant"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Spider Plant
+          </p>
+          <p>$50</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/best-1.jpg"
+            alt="rose"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Rose Plant
+          </p>
+          <p>$40</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/best-2.jpg"
+            alt="lilly"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Lily Plant
+          </p>
+          <p>$70</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/best-3.jpg"
+            alt="Bougainvillea"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Bougainvillea
+          </p>
+          <p>$40</p>
+        </div>
+        <div class="cursor-pointer">
+          <img
+            src="./images/best-4.webp"
+            alt="petal rose"
+            class="w-52 h-60 object-cover inline border border-black md:w-70 md:h-75 transition duration-200 transform hover:-translate-y-2"
+          />
+          <p
+            class="font-bold pt-1 transition duration-200 hover:text-green-500"
+          >
+            Petal rose Plant
+          </p>
+          <p>$25</p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-green-200 p-4 m-2 flex flex-col gap-3">
+      <h1 class="text-4xl text-green-700 font-bold">Greenden</h1>
+      <p>
+        Bringing the beauty of nature to your home. GREENDEN – Your green
+        sanctuary.
+      </p>
+      <p>© 2025 GREENDEN | All rights reserved..</p>
+    </footer>
+    <div
+      class="fixed bottom-5 right-1 cursor-pointer transition-transform duration-300 hover:scale-[1.05]"
+    >
+      <img
+        src="./images/whatsapp-grn.png"
+        alt="logo"
+        class="w-[45px] h-[45px] rounded-[50%]"
+      />
+    </div>
+  </body>
+</html>
